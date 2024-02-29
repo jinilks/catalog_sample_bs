@@ -15,6 +15,3 @@ spec:
   owner: guests
   lifecycle: production
   system: examples
-  providesApis:
-    - healthcheck
-    - main
