@@ -3,7 +3,10 @@ kind: Component
 metadata:
   name: "sample_bs"
   description: "sample application for testing the component"
+  annotations:
+    github.com/project-slug: jinilks/sample_bs
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
-  owner: user:guest
+  owner: jinilks
   lifecycle: production
